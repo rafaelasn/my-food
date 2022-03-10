@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="80dp"
+    android:layout_height="90dp"
+    android:padding="4dp">
+
+    <ImageView
+        android:id="@+id/last_restaurant_icon_imageView"
+        android:src="@drawable/my_food_logo"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"/>
+
+    <TextView
+        android:id="@+id/last_restaurant_name_textView"
+        android:fontFamily="sans-serif"
+        android:textSize="12sp"
+        android:text="placeholder"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

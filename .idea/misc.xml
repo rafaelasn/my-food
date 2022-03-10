@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/my-food/app/src/main/res/drawable/my_food_logo.xml" value="0.1546875" />
         <entry key="..\:/Android/my-food/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
         <entry key="..\:/Android/my-food/app/src/main/res/layout/home_fragment.xml" value="0.33" />
+        <entry key="..\:/Android/my-food/app/src/main/res/layout/last_restaurant_item.xml" value="0.5" />
+        <entry key="..\:/Android/my-food/app/src/main/res/layout/recommended_restaurant_item.xml" value="0.140625" />
       </map>
     </option>
   </component>
