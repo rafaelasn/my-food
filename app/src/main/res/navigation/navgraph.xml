@@ -2,10 +2,12 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/navgraph">
+    android:id="@+id/navgraph"
+    app:startDestination="@id/homeFragment">
 
     <fragment
         android:id="@+id/homeFragment"
+        android:name="com.example.myfood.homefeature.HomeFragment"
         tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/homeFragment_to_restaurantMenuFragment"
@@ -14,6 +16,7 @@
 
     <fragment
         android:id="@+id/restaurantMenuFragment"
+        android:name="com.example.myfood.restaurantfeature.RestaurantMenuFragment"
         tools:layout="@layout/fragment_home">
     </fragment>
 
