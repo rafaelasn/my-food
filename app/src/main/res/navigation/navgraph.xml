@@ -16,7 +16,7 @@
 
     <fragment
         android:id="@+id/restaurantMenuFragment"
-        android:name="com.example.myfood.restaurantfeature.RestaurantMenuFragment"
+        android:name="com.example.myfood.restaurantmenu.RestaurantMenuFragment"
         tools:layout="@layout/fragment_home">
     </fragment>
 

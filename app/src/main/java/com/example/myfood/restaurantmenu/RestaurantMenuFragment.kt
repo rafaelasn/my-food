@@ -1,4 +1,4 @@
-package com.example.myfood.restaurantfeature
+package com.example.myfood.restaurantmenu
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.myfood.databinding.FragmentRestaurantMenuBinding
-import com.example.myfood.model.Restaurant
 
 class RestaurantMenuFragment : Fragment() {
 
