@@ -18,6 +18,9 @@
         android:id="@+id/restaurantMenuFragment"
         android:name="com.example.myfood.restaurantmenu.RestaurantMenuFragment"
         tools:layout="@layout/fragment_home">
+        <argument
+            android:name="restaurantInfo"
+            app:argType="com.example.myfood.model.Restaurant" />
     </fragment>
 
 </navigation>

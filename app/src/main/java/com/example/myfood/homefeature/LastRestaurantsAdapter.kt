@@ -3,6 +3,9 @@ package com.example.myfood.homefeature
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.findFragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
@@ -33,6 +36,11 @@ class LastRestaurantsAdapter :
         fun bind(restaurant: Restaurant) {
             with(binding) {
                 lastRestaurantNameTextView.text = restaurant.name
+                restaurantContainer.setOnClickListener {
+                    val direction = HomeFragmentDirections
+                        .homeFragmentToRestaurantMenuFragment(restaurant)
+                    itemView.findFragment<Fragment>().findNavController().navigate(direction)
+                }
             }
         }
     }
